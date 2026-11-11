@@ -5,6 +5,6 @@ A collection of my GIMP plug-ins, split by the GIMP version they target. GIMP 3 
 | Directory | Targets | Plug-ins |
 |-----------|---------|----------|
 | [`gimp-v2/`](gimp-v2/) | GIMP 2.10 | none yet |
-| [`gimp-v3/`](gimp-v3/) | GIMP 3.x | [Page Rip](gimp-v3/page-rip/) |
+| [`gimp-v3/`](gimp-v3/) | GIMP 3.x | [Page Rip](gimp-v3/page-rip/), [Signature to Alpha](gimp-v3/signature-to-alpha/) |
 
 Each directory's README explains how to install its plug-ins. Each plug-in's README explains how to use it.

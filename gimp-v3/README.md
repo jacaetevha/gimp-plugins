@@ -44,3 +44,4 @@ If a plug-in doesn't appear in its menu, start GIMP from a terminal with `--verb
 | Plug-in | Menu | What it does |
 |---------|------|--------------|
 | [Page Rip](page-rip/) | Filters → Decor → Page Rip… | Cuts a band out of an image and joins the rest with a torn-paper edge |
+| [Signature to Alpha](signature-to-alpha/) | Colors → Signature to Alpha… | Makes the paper around a signature transparent, removes specks and recolours the ink |
