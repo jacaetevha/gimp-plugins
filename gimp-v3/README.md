@@ -14,24 +14,24 @@ plug-ins/
 
 Each plug-in in this directory is already laid out that way, so you install the whole folder.
 
-Where the `plug-ins` folder lives:
+Where the `plug-ins` folder lives, with `3.x` being your GIMP's minor version (`3.0`, `3.2`, ...). Each minor release gets a new profile folder, so plug-ins have to be installed again after upgrading:
 
 | OS | Folder |
 |----|--------|
-| macOS | `~/Library/Application Support/GIMP/3.0/plug-ins/` |
-| Linux | `~/.config/GIMP/3.0/plug-ins/` (Flatpak: `~/.var/app/org.gimp.GIMP/config/GIMP/3.0/plug-ins/`) |
-| Windows | `%APPDATA%\GIMP\3.0\plug-ins\` |
+| macOS | `~/Library/Application Support/GIMP/3.x/plug-ins/` |
+| Linux | `~/.config/GIMP/3.x/plug-ins/` (Flatpak: `~/.var/app/org.gimp.GIMP/config/GIMP/3.x/plug-ins/`) |
+| Windows | `%APPDATA%\GIMP\3.x\plug-ins\` |
 
 If you're unsure, **Edit → Preferences → Folders → Plug-ins** lists the folders GIMP searches.
 
 1. Copy the plug-in's folder into `plug-ins`, or symlink it so pulling this repo updates the plug-in:
    ```sh
-   ln -s "$PWD/page-rip" ~/Library/Application\ Support/GIMP/3.0/plug-ins/page-rip
+   ln -s "$PWD/page-rip" ~/Library/Application\ Support/GIMP/3.2/plug-ins/page-rip
    ```
    On Windows, copy the folder.
 2. On macOS and Linux, make sure the script is executable (it is in this repo, but copying can lose it):
    ```sh
-   chmod +x ~/Library/Application\ Support/GIMP/3.0/plug-ins/page-rip/page-rip.py
+   chmod +x ~/Library/Application\ Support/GIMP/3.2/plug-ins/page-rip/page-rip.py
    ```
 3. Restart GIMP.
 
